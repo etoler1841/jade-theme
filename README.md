@@ -1,16 +1,15 @@
-# Cobalt2 Theme for VS Code
+# Jade Theme for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+[![Version](https://vsmarketplacebadge.apphb.com/version/etoler1841.jade-theme.svg)](https://marketplace.visualstudio.com/items?itemName=etoler1841.jade-theme)
 
-![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
-
+![Preview](https://raw.githubusercontent.com/etoler1841/jade-theme/jade-updates/images/ss.png)
 
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
+2. Search for `Jade`!
 3. Click **Install** to install it.
-4. Code > Preferences > Color Theme > **Cobalt2**
+4. Code > Preferences > Color Theme > **Jade**
 5. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
@@ -18,8 +17,8 @@
 ```js
 {
   // This is all that matters
-  "workbench.colorTheme": "Cobalt2",
-  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives 
+  "workbench.colorTheme": "Jade",
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
@@ -35,15 +34,15 @@
 ```
 
 ## Colours
-Blue: #193549
-Blue Highlight: #1F4662
-Blue Highlight2: #234E6D
-Blue Dark: #122738
+
+Green: #194935
+Green Highlight: #1F6246
+Green Highlight2: #236D4E
+Green Dark: #123827
 Yellow: #ffc600
 Hot Pink: #ff0088
 Blush Pink: #ff628c
 Orange: #ff9d00
-Green
 
 ## Contributing
 
@@ -52,7 +51,7 @@ To work on the theme:
 1. Clone this repo and open in VS Code
 2. Open run `View → Run`
 3. Click `Launch Extension`. This will open up another VS Code Editor
-4. Make changes to `cobalt2.json`. You will see changes reflected in the other editor that opened in step 3.
+4. Make changes to `jade.json`. You will see changes reflected in the other editor that opened in step 3.
 
 If you are making a Pull Request, Please give me a screenshot of before/after!
 
@@ -62,7 +61,6 @@ These are mostly notes for me.
 
 1. Increment the version number in `package.json`
 1. run `npm run bundle`
-1.
 
 ## I don't like something
 
@@ -72,15 +70,12 @@ These are the things we have control over. If you would like to change something
 
 https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
-## Put Cobalt2 in other places!
+## Check out the original Cobalt 2!
 
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
+If green's not your thing, the original blue is pretty sweet too. (This wasn't supposed to rhyme. Oops.)
+
+[The original Cobalt 2](https://github.com/wesbos/cobalt2-vscode)
 
 ## Thanks
 
-Thanks to Roberto Achar for doing much of the initial porting to VS Code.
+Thanks to Wes Bos for doing 99.8% of the work on this theme.

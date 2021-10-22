@@ -1,6 +1,6 @@
 .vscode/**
 demo/**
-images/logo.sketch
+images/logo.svg
 .gitignore
 .gitattributes
 .editorconfig

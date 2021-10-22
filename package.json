@@ -1,16 +1,16 @@
 {
-  "name": "theme-cobalt2",
-  "version": "2.2.5",
-  "displayName": "Cobalt2 Theme Official",
-  "description": "🔥 Official theme by Wes Bos.",
-  "publisher": "wesbos",
+  "name": "jade-theme",
+  "version": "0.1.1",
+  "displayName": "Jade Theme",
+  "description": "A green theme lovingly ripped off from Wes Bos's Cobalt 2",
+  "publisher": "etoler1841",
   "icon": "images/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wesbos/cobalt2-vscode"
+    "url": "https://github.com/etoler1841/jade-theme"
   },
   "galleryBanner": {
-    "color": "#193549",
+    "color": "#194935",
     "theme": "dark"
   },
   "categories": [
@@ -30,9 +30,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cobalt2",
+        "label": "Jade",
         "uiTheme": "vs-dark",
-        "path": "./theme/cobalt2.json"
+        "path": "./theme/jade.json"
       }
     ]
   },
