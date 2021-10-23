@@ -2,7 +2,7 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/etoler1841.jade-theme.svg)](https://marketplace.visualstudio.com/items?itemName=etoler1841.jade-theme)
 
-![Preview](https://raw.githubusercontent.com/etoler1841/jade-theme/jade-updates/images/ss.png)
+![Preview](https://raw.githubusercontent.com/etoler1841/jade-theme/master/images/ss.png)
 
 # Installation
 
@@ -14,35 +14,31 @@
 
 ## Recommended Settings
 
-```js
+```json
 {
   // This is all that matters
   "workbench.colorTheme": "Jade",
-  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
-  "files.trimTrailingWhitespace": true,
-  "editor.fontWeight": "400",
-  "prettier.eslintIntegration": true,
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "all",
+  // Wes Bos recommends Operator Mono. It's $200 and you need to buy it to get the cursive. I personally like Victor
+  // Mono, which is what's in the screenshot. You can get it here: https://rubjo.github.io/victor-mono/. Fira Code
+  // iScript is my secondary option.
+  "editor.fontFamily": "'Victor Mono', 'Fira Code iScript', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 1.85,
+  "editor.fontWeight": "bold"
 }
 ```
 
 ## Colours
 
-Green: #194935
-Green Highlight: #1F6246
-Green Highlight2: #236D4E
-Green Dark: #123827
-Yellow: #ffc600
-Hot Pink: #ff0088
-Blush Pink: #ff628c
-Orange: #ff9d00
+- Green: #194935
+- Green Highlight: #1F6246
+- Green Highlight2: #236D4E
+- Green Links & Buttons: #00AA77
+- Green Dark: #123827
+- Yellow: #ffc600
+- Hot Pink: #ff0088
+- Blush Pink: #ff628c
+- Orange: #ff9d00
 
 ## Contributing
 
@@ -61,6 +57,7 @@ These are mostly notes for me.
 
 1. Increment the version number in `package.json`
 1. run `npm run bundle`
+1. run `npm run publish`
 
 ## I don't like something
 
