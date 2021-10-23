@@ -36,7 +36,7 @@
     "badge.background": "#ffc600",
     "badge.foreground": "#000",
     // button
-    "button.background": "#00ff88",
+    "button.background": "#00aa77",
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
@@ -138,7 +138,7 @@
     "editorWidget.border": "#0d583a",
     "errorForeground": "#A22929",
     // extensionButton
-    "extensionButton.prominentBackground": "#00ff88",
+    "extensionButton.prominentBackground": "#00aa77",
     "extensionButton.prominentForeground": "#fff",
     "extensionButton.prominentHoverBackground": "#ff9d00",
     "focusBorder": "#0d583a",
@@ -234,7 +234,7 @@
     "statusBar.noFolderBackground": "#152d23",
     "statusBar.noFolderBorder": "#0d583a",
     "statusBar.noFolderForeground": "#aaa",
-    "statusBarItem.activeBackground": "#00ff88",
+    "statusBarItem.activeBackground": "#00aa77",
     "statusBarItem.hoverBackground": "#0d583a",
     "statusBarItem.prominentBackground": "#152d23",
     "statusBarItem.prominentHoverBackground": "#0d583a",
@@ -264,7 +264,7 @@
     "terminal.ansiBrightMagenta": "#fb94ff",
     "terminal.ansiBrightCyan": "#80fcff",
     "terminal.ansiBrightWhite": "#ffffff",
-    "terminal.background": "#122738",
+    "terminal.background": "#123827",
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#ffc600",
     "terminalCursor.foreground": "#ffc600",
@@ -276,10 +276,10 @@
     "gitDecoration.conflictingResourceForeground": "#FF7200",
     // textBlockQuote
     "textBlockQuote.background": "#194935",
-    "textBlockQuote.border": "#00ff88",
+    "textBlockQuote.border": "#00aa77",
     "textCodeBlock.background": "#194935",
-    "textLink.activeForeground": "#00ff88",
-    "textLink.foreground": "#00ff88",
+    "textLink.activeForeground": "#00aa77",
+    "textLink.foreground": "#00aa77",
     "textPreformat.foreground": "#ffc600",
     "textSeparator.foreground": "#0d583a",
     "titleBar.activeBackground": "#152D23",
@@ -297,7 +297,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#00ff88"
+        "foreground": "#00aa77"
       }
     },
     {
