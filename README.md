@@ -7,9 +7,9 @@
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Jade`!
+2. Search for `Jade Theme`.
 3. Click **Install** to install it.
-4. Code > Preferences > Color Theme > **Jade**
+4. File > Preferences > Color Theme > **Jade**
 5. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
@@ -28,7 +28,7 @@
 }
 ```
 
-## Colours
+## Colors
 
 - Green: #194935
 - Green Highlight: #1F6246
@@ -36,8 +36,8 @@
 - Green Links & Buttons: #00AA77
 - Green Dark: #123827
 - Yellow: #ffc600
-- Hot Pink: #ff0088
-- Blush Pink: #ff628c
+- Pink: #ff6dbb
+
 - Orange: #ff9d00
 
 ## Contributing
@@ -45,25 +45,25 @@
 To work on the theme:
 
 1. Clone this repo and open in VS Code
-2. Open run `View → Run`
-3. Click `Launch Extension`. This will open up another VS Code Editor
+2. Run the extension. `View → Run`
+3. Click `Launch Extension`. This will open up another VS Code Editor.
 4. Make changes to `jade.json`. You will see changes reflected in the other editor that opened in step 3.
 
-If you are making a Pull Request, Please give me a screenshot of before/after!
+If you are making a Pull Request, please give me a screenshot of before/after!
 
 ## Deploying a new version
 
 These are mostly notes for me.
 
 1. Increment the version number in `package.json`
-1. run `npm run bundle`
-1. run `npm run publish`
+2. Run `npm run bundle`
+3. Run `npm run publish`
 
 ## I don't like something
 
 First, this theme is new so if something is funky, please open an issue. There are many languages and parts of VS Code I don't use, so let me know!
 
-These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
+These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colors in your own settings.json file.
 
 https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
